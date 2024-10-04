@@ -40,7 +40,8 @@ body {
     rgb(227, 228, 232, 0) 50%
   );
   border-radius: 50%;
-  box-shadow: inset -2px -2px 0 rgba(23, 24, 28, 0.25);
+  box-shadow: inset -2px -2px 0 
+              rgba(23, 24, 28, 0.25);
   top: calc(50% - 8px);
   left: calc(50% - 8px);
   animation: particleTop 3s linear infinite;
@@ -52,12 +53,14 @@ body {
 
 @keyframes particleTop {
   from {
-    transform: rotateY(0) rotateZ(-35deg) translateY(-100%) rotateZ(35deg)
-      rotateY(0);
+    transform: rotateY(0) rotateZ(-35deg) 
+               translateY(-100%) rotateZ(35deg)
+               rotateY(0);
   }
   to {
-    transform: rotateY(-1turn) rotateZ(-35deg) translateY(-100%) rotateZ(35deg)
-      rotateY(1turn);
+    transform: rotateY(-1turn) rotateZ(-35deg) 
+               translateY(-100%) rotateZ(35deg)
+               rotateY(1turn);
   }
 }
 
@@ -67,12 +70,14 @@ body {
 
 @keyframes particleMiddle {
   from {
-    transform: rotateY(0) rotateZ(90deg) translateY(-100%) rotateZ(-90deg)
-      rotateY(0);
+    transform: rotateY(0) rotateZ(90deg) 
+               translateY(-100%) rotateZ(-90deg)
+               rotateY(0);
   }
   to {
-    transform: rotateY(-1turn) rotateZ(90deg) translateY(-100%) rotateZ(-90deg)
-      rotateY(1turn);
+    transform: rotateY(-1turn) rotateZ(90deg) 
+               translateY(-100%) rotateZ(-90deg)
+               rotateY(1turn);
   }
 }
 
@@ -82,12 +87,14 @@ body {
 
 @keyframes particleBottom {
   from {
-    transform: rotateY(0) rotateZ(-145deg) translateY(-100%) rotateZ(145deg)
-      rotateY(0);
+    transform: rotateY(0) rotateZ(-145deg) 
+               translateY(-100%) rotateZ(145deg)
+               rotateY(0);
   }
   to {
-    transform: rotateY(-1turn) rotateZ(-145deg) translateY(-100%)
-      rotateZ(145deg) rotateY(1turn);
+    transform: rotateY(-1turn) rotateZ(-145deg)
+               translateY(-100%) rotateZ(145deg) 
+               rotateY(1turn);
   }
 }
 
